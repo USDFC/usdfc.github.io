@@ -107,7 +107,7 @@ slides:
 <div class="full">
   <div class='row'>
     <div class='large-12 columns'>
-      {% include section-header.html title="Inspiring the Next Cyberhunters" %}
+      {% include section-header.html title="Inspiring the Next Cyber Hunters" %}
       <div class='spacing'></div>
       <p>
          The Digital Forensics Consortium (DFC) is non-profit organization created to educate students, private sector entities, and government organizations about digtial forensics and promote its value.  We leverage the vast intellect of our Board of Directors - comprised of some of the industry's foremost experts - to mature and invest in the future of this critical capability. Through our challenge programs, we strive to inspire and invest in our Science, Technology, Engineering, and  Mathematics (STEM) communities with academia and industry.
@@ -143,7 +143,7 @@ slides:
         include icon-text.html
         title='Strategic Advisory Board'
         abbrivation='SAB'
-        desc='An innovative think-tank providing insight and perspective from exeperts in the field of digital forensics.'
+        desc='A technical think-tank providing insight and perspective from experts in the field of digital forensics.'
         icon_class='fa fa-comments'
         delay='200'
         shape_class='icon-text-circle'
@@ -152,76 +152,12 @@ slides:
   </div>
 </div>
 
-<div class="spacing"></div>
-
-<div class='full' style='background: #f5f5f5'>
-  <div class='row'>
-    <div class='large-12 columns'>
-      {% include section-header.html title="Our recent posts" %}
-      <div class='spacing'></div>
-      <p>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
-      </p>
-      <div class='two spacing'></div>
-    </div>
-  </div>
-
-  <div class='row'>
-    {% for post in site.posts %}
-      {% if forloop.index > 3 %}
-        {% break %}
-      {% endif %}
-
-      <div class='large-4 medium-4 columns'>
-        <div class='mod modBlogPost'>
-          {% for image in post.images %}
-            {% unless forloop.first %}
-              {% break %}
-            {% endunless %}
-            <a href="{{post.url}}"><img alt="" src="{{image}}" /></a>
-          {% endfor %}
-          <div class='content'>
-            <p class='date'>{{post.date | date: "%B %d, %Y" }}</p>
-            <h4><a href="#">{{post.title}}</a></h4>
-            <p>{{post.excerpt}}</p>
-            <!--
-              <div class="tags">
-                {% for cat in post.categories %}
-                  <a href="#">{{cat | capitalize}}</a>
-                  {% unless forloop.last %}
-                    ,
-                  {% endunless %}
-                {% endfor %}
-              </div>
-            -->
-          </div>
-        </div>
-      </div>
-
-    {% endfor %}
-
-  </div>
-
-
-  <div class='two spacing'></div>
-  <div class='row'>
-    <div class='large-12 columns'>
-      <p class='centered-text'>
-        <a class='button' href='blog.html'>See more posts</a>
-      </p>
-    </div>
-  </div>
-  <div class='two spacing'></div>
-
-</div>
-
-
 <div class='full no-padding' style='background: #fff'>
   <div class='two spacing'></div>
   <div class='mod modCallToAction'>
     <div class='row'>
       <div class='medium-9 large-9 columns'>
-        <p>Like what you see here? Checkout this theme and start to build your site immediately.</p>
+        <p>Educating digital forensics cyber hunters . . . one exercise at a time</p>
       </div>
       <div class='medium-3 large-3 columns'>
         <a class='button' href='http://themeforest.net/user/honryou/portfolio?ref=honryou'>Learn more</a>
