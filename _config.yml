@@ -1,15 +1,23 @@
 # Site settings
 title: US Digital Forensics Consortium
-email: your-email@domain.com
+email: info@usdfc.org
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog/
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: usdfc
-github_username:  bandrzej
 repository: usdfc/usdfc.github.io
+
+#Social media settings
+facebook_page: usdfc
+github_org: usdfc
+github_username: usdfc
+linkedin_companyname: digital-forensics-consortium
+twitter_handle: USDFC
+
+#gh-pages settings
+exclude : [ README.md , docker-github-pages.*, features.txt ]
 
 # Build settings
 markdown: kramdown
