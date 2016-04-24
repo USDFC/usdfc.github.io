@@ -27,3 +27,18 @@
         1. Close all command windows
         1. Reopen Docker Quickstart Terminal
         1. Run `docker` to verify it is seen
+  1. Create your personal access token with GitHub.com
+    1. Create the key at https://github.com/settings/tokens
+    1. Set to following permissions:
+      1. repo -> public_repo
+      1. user ->user:email
+      1. user -> user:follow
+    1. Save in .bashrc
+    `echo "GITHUB_TOKEN=<TOKEN>" > .bashrc`
+
+## Launch github-pages
+  1. Start "Docker Quickstart Terminal"        
+  1. Change directory to repo clone
+  `cd ~/Documents/GitHub/usdfc.github.io`
+  1. Run the container.
+  `./docker-github-pages.sh`
