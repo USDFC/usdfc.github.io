@@ -4,12 +4,14 @@
 - name: About Us
   path: about.html
   section_id: about
-- name: Volunteer
-  path: volunteer.html
-  section_id: volunteer
-- name: Donate
-  path: donate.html
-  section_id: donate
+- name: Help
+  path: help.html
+  section_id: help
+  children:
+    - name: Volunteer
+      path: volunteer.html
+    - name: Donate
+      path: donate.html
 - name: Services
   path: services.html
   section_id: services
@@ -18,9 +20,6 @@
       path: portfolio.html
     - name: Portfolio item
       path: portfolio-item.html
-- name: Volunteer
-  path: portfolio.html
-  section_id: portfolio
 - name: Contact
   path: contact.html
   section_id: contact
