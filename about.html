@@ -36,7 +36,6 @@ testimonials:
       <div class='spacing'></div>
       <div class='items centered-text'>
         <p class='quote'>"Create digital forensics cyber hunters one exercise at a time."</p>
-        <div class='two spacing'></div>
       </div>
     </div>
     <div class='medium-6 columns'>
@@ -44,7 +43,6 @@ testimonials:
       <div class='spacing'></div>
       <div class='items centered-text'>
         <p class='quote'>"Develop a digital forensics workforce to mitigate the threat to public safety, national, and economic security."</p>
-        <div class='two spacing'></div>
       </div>
     </div>
   </div>
@@ -52,21 +50,22 @@ testimonials:
 
 <div class='full'>
   <div class='row'>
-    <div class='medium-6 columns'>
-      <h3>Our Objective</h3>
+    <div class='large-12 columns'>
+      {% include section-header.html title="Our Objective" %}
       <p>The US Government identifies cybersecurity as "one of the most serious economic and national security challenges we face as a nation, but one that we as a government or as a country are not adequately prepared to counter."</p>
       <p>Our objective is to conduct educational outreach and research activities that support cybersecurity to build tomorrow's cyber hunters. These activities may include, but are not limited to, the formation and operation of digital forensics competitions, educational seminars, workshops, and intellectual cultivation of digital forensics capabilities.</p>
-    </div>
-    <div class='medium-6 columns'>
-      <h3>Our skills</h3>
+
+      <h4>What is Digital Forensics?</h4>
+      <p>Digital forensics is the process of 'collecting, processing, preserving, analyzing, and presenting computer-related evidence in support of network vulnerability mitigation, and/or criminal, fraud, counterintelligence or law enforcement investigations."</p>
+      <p>Cyber Hunters must determine: what happened, how it happened, who did it, motive, if they still have access, was any sensitive information compromised.</p>
 
     </div>
   </div>
 </div>
 
-
 <div class='full'>
   <div class='row'>
+    {% include section-header.html title="Our Team" %}
     {% for member in site.data.members %}
       <div class='small-6 medium-3 large-3 columns'>
         <div class='mod modTeamMember'>
