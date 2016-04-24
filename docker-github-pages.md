@@ -42,3 +42,13 @@
   `cd ~/Documents/GitHub/usdfc.github.io`
   1. Run the container.
   `./docker-github-pages.sh`
+  1. This will launch the jeykll server.
+
+## Close down github-pages
+  1. Open "Docker Quickstart Terminal" window
+  1. Press CTRL then C
+  1. Enter this command to stop and then kill all Docker containers
+  `docker rm $(docker ps -a -q)`
+  1. Verify unloaded with `docker ps -a`
+  1. Shutdown boot2docker with `docker-machine stop`
+  1. Close the "Docker Quickstart Terminal"
