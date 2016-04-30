@@ -1,0 +1,44 @@
+- avatar: images/board/arata.jpg
+  name: Hal Arata, PhD
+  positions:
+    - place: Executive for Cyber Security Strategy - Hewlett Packard Enterprises
+    - place: Director, Air Force Cyberspace Technical Center of Excellence - Air Force Institue of Technology
+    - place: Col(Ret) - USAF 
+
+  socials:
+    - link: https://www.linkedin.com/in/harold-arata-28745317
+      icon: linkedin
+
+- avatar: images/board/beebe.jpg
+  name: Nicole Beebe, PhD
+    - place: Associate Professor, Information and Cyber Security - University of Texas San Antonio
+  socials:
+    - link: https://www.linkedin.com/in/harold-arata-28745317
+      icon: linkedin
+
+- avatar: images/board/christy.jpg
+  name: Jim Christy
+  positions:
+    - place: President, Co-Founder, and SAB Chair - DFC
+    - place: Special Agent (Ret) - Air Force Office of Special Investigations (AFOSI)
+  socials:
+    - link: https://www.linkedin.com/in/christyjim
+      icon: linkedin
+
+- avatar: images/board/dudzik.jpg
+  name: Michael Dudzik
+  positions:
+    - place: CEO/President - IQM Research Institute
+    - place: Reserve Brigadier General (Ret) - USAF Space Command
+  socials:
+    - link: https://www.linkedin.com/in/mike-dudzik-a189813
+      icon: linkedin
+
+- avatar: images/board/marshall.jpg
+  name: Rich Marshall, ESQ
+  positions:
+    - place: CEO, Secure Exchange Technology Innovation
+    - place: Ret. NSA on President's Critical Infrastructure Assurance
+  socials:
+    - link: http://twitter.com
+      icon: twitter
