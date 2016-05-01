@@ -2519,6 +2519,7 @@ form input.error, form textarea.error {
   line-height: 5.14286rem;
   display: inline-block;
   color: #fff;
+  background-color: #1a1a1a;
   letter-spacing: 2px;
   font-weight: bold;
   margin-bottom: 40px;
@@ -2528,6 +2529,7 @@ form input.error, form textarea.error {
   font-size: 1.28571rem;
   font-weight: normal;
   color: #fff;
+  background-color: #1a1a1a;
   letter-spacing: 2px;
   margin-bottom: 5px;
 }
